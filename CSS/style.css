@@ -37,5 +37,80 @@ ul li{
 
 }
 .right{
-    width: 75vm;
+    width: 75vw;
+    margin: 16px 0;
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+.footer{
+    gap: 13px;
+    font-size: 10px;
+    color: gray;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+}
+.footer a{
+    color: gray;
+}
+.header{
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+}
+.header > *{
+    padding: 20px;
+}
+.signupbtn{
+    background-color: black;
+    color: rgb(156, 148, 148);
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+.signupbtn:hover{
+    font-size: 17px;
+    color: white;
+}
+.btn{
+    margin: 0 12px;
+}
+.loginbtn{
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 21px;
+    width: 79px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.loginbtn:hover{
+    font-size: 17px;
+    font-weight: bold;
+}
+.spotifyplaylist{
+    padding: 16px;
+}
+.cardcontainer{
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    max-height: 60vh;
+}
+.card{
+    width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #252525;
+    position: relative;
+    transition: all .9s;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
 }
